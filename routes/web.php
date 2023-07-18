@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/test', fn () => 'this is test');
+Route::get('/test2', fn () => 'Is it test2 ?');
